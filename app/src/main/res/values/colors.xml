@@ -5,4 +5,6 @@
     <color name="threeColor">#FF962E40</color>
     <color name="fourColor">#FFC9463D</color>
     <color name="fiveColor">#FFFF5E35</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>

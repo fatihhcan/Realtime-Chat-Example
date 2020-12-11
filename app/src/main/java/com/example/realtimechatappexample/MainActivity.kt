@@ -6,13 +6,24 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toolbar
+import androidx.viewpager.widget.ViewPager
+import com.example.realtimechatappexample.R.id.tab_layout
+import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(findViewById(R.id.toolbar))
+        setSupportActionBar(findViewById(R.id.toolbar_main))
+
+
+        setSupportActionBar(findViewById(R.id.toolbar_main))
+        supportActionBar!!.title = ""
+
+        val tabLayout: TabLayout = findViewById(R.id.tab_layout)
+        val viewPager: ViewPager = findViewById(R.id.view_pager)
 
 
     }
